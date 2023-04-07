@@ -22,5 +22,5 @@ jobs:
       run: |
            npm install --legacy-peer-deps 
            git config --global user.name 'abubakar-siddiqui'
-           git remote set-url origin https://${{ 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 }}@github.com:Abubakar-Siddiqui/notes_app_react.git
+           git remote set-url origin https://${{ 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 }}@github.com:Abubakar-Siddiqui/notes_app_react.git
            CI=false && npm run deploy
