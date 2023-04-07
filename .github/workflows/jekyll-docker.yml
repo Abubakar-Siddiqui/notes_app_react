@@ -17,4 +17,4 @@ jobs:
 
     # Run our deployment command
     - name: Deploying the static website to gh-pages
-      run: npm install --legacy-peer-depos && npm run deploy
+      run: npm install --legacy-peer-deps && npm run deploy
