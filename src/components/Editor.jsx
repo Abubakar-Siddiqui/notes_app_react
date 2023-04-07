@@ -35,12 +35,12 @@ export default function Editor({ currentNote, updateNote, updateTitle }) {
         minEditorHeight={40}
         heightUnits="vh"
       />
-      {/* <div className="app-main-note-preview">
+      <div className="app-main-note-preview">
         <h1 className="preview-title">{currentNote.title}</h1>
         <ReactMarkdown className="markdown-preview">
           {currentNote.body}
         </ReactMarkdown>
-      </div> */}
+      </div>
     </section>
   );
 }
