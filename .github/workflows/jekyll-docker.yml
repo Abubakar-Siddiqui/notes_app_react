@@ -21,7 +21,7 @@ jobs:
     - name: Deploying the static website to gh-pages
       run: |
            npm install --legacy-peer-deps 
-           git config --global user.email 'abubakarsiddiqui866@gimail.com'
+           git config --global user.email 'abubakarsiddiqui866@gmail.com'
            git config --global user.name 'abubakar-siddiqui'
            CI=false && npm run deploy
      # git remote set-url origin https://${{ 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 }}@github.com:Abubakar-Siddiqui/notes_app_react.git
