@@ -36,7 +36,7 @@ export default function Editor({ currentNote, updateNote, updateTitle }) {
         heightUnits="vh"
       />
       <div className="app-main-note-preview">
-        {/* <h1 className="preview-title">{currentNote.title}</h1> */}
+        <h1 className="preview-title">{currentNote.title}</h1>
         <ReactMarkdown className="markdown-preview">
           {/* {currentNote.body} */}
         </ReactMarkdown>
